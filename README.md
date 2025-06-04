@@ -22,9 +22,12 @@ Alpha_Amylase/
 
 
 
-## 🧠 Step 1 – Predict α-Amylase Levels
+## Step 1 – Predict α-Amylase Levels
 
-Run: python 1_predict.py
+Run:
+
+```bash
+python 1_predict.py
 ```
 
 This script will:
@@ -34,9 +37,11 @@ This script will:
 
 ---
 
-## ✅ Step 2 – Evaluate Accuracy
+## Step 2 – Evaluate Accuracy
 
-Run: python 2_Checkk_accuracy.py
+Run: 
+```bash
+python 2_Checkk_accuracy.py
 ```
 
 This script:
