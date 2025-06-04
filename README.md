@@ -20,19 +20,11 @@ Alpha_Amylase/
 
 ---
 
-## 🔧 Requirements
 
-Install required libraries with:
-
-```bash
-pip install ultralytics opencv-python numpy pandas scikit-learn matplotlib seaborn
 
 ## 🧠 Step 1 – Predict α-Amylase Levels
 
-Run:
-
-```bash
-python 1_predict.py
+Run: python 1_predict.py
 ```
 
 This script will:
@@ -44,13 +36,10 @@ This script will:
 
 ## ✅ Step 2 – Evaluate Accuracy
 
-Run:
-
-```bash
-python 2_Checkk_accuracy.py
+Run: python 2_Checkk_accuracy.py
 ```
 
 This script:
 - Compares predictions with true labels from `correct_labels/`
-- Prints accuracy
+- Print accuracy
 - Displays confusion matrix (counts and percentages)
